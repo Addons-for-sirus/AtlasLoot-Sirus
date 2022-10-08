@@ -54,14 +54,18 @@ end
 -----------------------
 	
 	--Tol'Garod Prison
+	AtlasLoot_TableNames["Gogonash25Man_x2"] ={AL["Gogonash"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Xtrax Mind Absorber25Man_x2"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater25Man_x2"] ={AL["Magic Eater"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Gogonash_x2"] ={AL["Gogonash"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Xtrax Mind Absorber_x2"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Magic Eater_x2"] ={AL["Magic Eater"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Magic Eater2_x2"] ={AL["Magic Eater"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater_x2"] ={AL["Magic Eater"], "AtlasLootSirus" };	
+	AtlasLoot_TableNames["Gogonash25Man_x4"] ={AL["Gogonash"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Xtrax Mind Absorber25Man_x4"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Magic Eater25Man_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Gogonash_x4"] ={AL["Gogonash"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Xtrax Mind Absorber_x4"] ={AL["Xtrax Mind Absorber"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Magic Eater_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["Magic Eater2_x4"] ={AL["Magic Eater"], "AtlasLootSirus" };
 	-- Bronze Sanctuary
 	AtlasLoot_TableNames["Murozond"] ={AL["Murozond"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Elonus"] ={AL["Elonus"], "AtlasLootSirus" };
@@ -588,6 +592,7 @@ end
 	AtlasLoot_TableNames["MountHyjalAzgalor"] = { BabbleBoss["Azgalor"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["MountHyjalArchimonde"] = { BabbleBoss["Archimonde"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["MountHyjalTrash"] = { AL["Trash Mobs"].." ("..BabbleZone["Hyjal Summit"]..")", "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["MountHyjalTrash2"] = { AL["Trash Mobs"].." ("..BabbleZone["Hyjal Summit"]..")", "AtlasLootBurningCrusade" };
   -- Gruul's Lair
 	AtlasLoot_TableNames["GruulsLairHighKingMaulgar"] = { BabbleBoss["High King Maulgar"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["GruulGruul"] = { BabbleBoss["Gruul the Dragonkiller"], "AtlasLootBurningCrusade" };
@@ -1332,23 +1337,38 @@ end
 	---T5 END
 	
 	---T6
-	AtlasLoot_TableNames["T6DeathKnightDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6DeathKnightTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightBloodDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"].." "..AL["Blood"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightFrostDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"].." "..AL["Frost"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightUnholyDPS"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["DPS"].." "..AL["Unholy"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightBloodTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"].." "..AL["Blood"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightFrostTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"].." "..AL["Frost"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DeathKnightUnholyTank"] = { LOCALIZED_CLASS_NAMES_MALE["DEATHKNIGHT"].." - "..AL["Tanking"].." "..AL["Unholy"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6DruidBalance"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Balance"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6DruidFeral"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Feral"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6DruidGuardian"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Guardian"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6DruidRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["DRUID"].." - "..AL["Restoration"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6Hunter"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6Mage"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6HunterBeastMastery"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." - "..AL["BeastMastery"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6HunterMarksmanship"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." - "..AL["Marksmanship"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6HunterSurvival"] = { LOCALIZED_CLASS_NAMES_MALE["HUNTER"].." - "..AL["Survival"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6MageArcane"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"].." - "..AL["Arcane"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6MageFire"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"].." - "..AL["Fire"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6MageFrost"] = { LOCALIZED_CLASS_NAMES_MALE["MAGE"].." - "..AL["Frost"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PaladinHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Holy"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PaladinProtection"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PaladinRetribution"] = { LOCALIZED_CLASS_NAMES_MALE["PALADIN"].." - "..AL["Retribution"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PriestHoly"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Holy"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6PriestDiscipline"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Discipline"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6PriestShadow"] = { LOCALIZED_CLASS_NAMES_MALE["PRIEST"].." - "..AL["Shadow"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6Rogue"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6RogueAssassination"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." - "..AL["Assassination"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6RogueOutlaw"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." - "..AL["Outlaw"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6RogueSubtlety"] = { LOCALIZED_CLASS_NAMES_MALE["ROGUE"].." - "..AL["Subtlety"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6ShamanElemental"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Elemental"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6ShamanEnhancement"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Enhancement"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6ShamanRestoration"] = { LOCALIZED_CLASS_NAMES_MALE["SHAMAN"].." - "..AL["Restoration"], "AtlasLootBurningCrusade" };
-	AtlasLoot_TableNames["T6Warlock"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6WarlockAffliction"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6WarlockDemonology"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6WarlockDestruction"] = { LOCALIZED_CLASS_NAMES_MALE["WARLOCK"], "AtlasLootBurningCrusade" };
+	AtlasLoot_TableNames["T6WarriorArms"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Arms"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6WarriorFury"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Fury"], "AtlasLootBurningCrusade" };
 	AtlasLoot_TableNames["T6WarriorProtection"] = { LOCALIZED_CLASS_NAMES_MALE["WARRIOR"].." - "..AL["Protection"], "AtlasLootBurningCrusade" };
 	---T6 END
@@ -2024,54 +2044,29 @@ end
 ----------------------
 --- Sirus fraction ---
 ----------------------
-		AtlasLoot_TableNames["Kor'kron_Battalion_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion1_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion2_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion3_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion4_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion5_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion6_x2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion1"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion2"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion3"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion5"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Kor'kron_Battalion6"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
 
-		AtlasLoot_TableNames["Seventh_Legion_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion1_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion2_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion3_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion4_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion5_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion6_x2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion1"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion2"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion3"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion5"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Seventh_Legion6"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
 
-		AtlasLoot_TableNames["Golden_Scorpid_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid1_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid2_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid3_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid4_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid5_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid6_x2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-
-		--------------------------------------------------------------------------------------------------
-		AtlasLoot_TableNames["Kor'kron_Battalion_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion1_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion2_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion3_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion4_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion5_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Kor'kron_Battalion6_x4"] = { BabbleFaction["Korkron_Battalion"], "AtlasLootSirus" };
-
-		AtlasLoot_TableNames["Seventh_Legion_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion1_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion2_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion3_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion4_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion5_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Seventh_Legion6_x4"] = { BabbleFaction["Seventh_Legion"], "AtlasLootSirus" };
-
-		AtlasLoot_TableNames["Golden_Scorpid_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid1_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid2_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid3_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid4_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid5_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
-		AtlasLoot_TableNames["Golden_Scorpid6_x4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid1"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid2"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid3"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid4"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid5"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
+		AtlasLoot_TableNames["Golden_Scorpid6"] = { BabbleFaction["Golden_Scorpid"], "AtlasLootSirus" };
 --------------
 --- Trades ---
 --------------
@@ -2143,6 +2138,10 @@ end
 	AtlasLoot_TableNames["Enchant_Tol'Garod"] = { ENCHANTING..": "..AL["Enchant_Tol'Garod"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["Enchanting_Tol'Garod"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Enchanting_Tol'Garod2"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Enchanting_Tol'Garod3"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Enchanting_Tol'Garod4"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Enchanting_Tol'Garod5"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Enchanting_Tol'Garod6"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
   -- Engineering
 	AtlasLoot_TableNames["EngineeringAmmo1"] = { ENGINEERING..": "..AL["Ammunition"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringArmor1"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };
@@ -2477,6 +2476,7 @@ end
 	AtlasLoot_TableNames["T4SET"] = { AL["Tier 4 Sets"], "Menu" };	
 	AtlasLoot_TableNames["T5SET"] = { AL["Tier 5 Sets"], "Menu" };
 	AtlasLoot_TableNames["T6SET"] = { AL["Tier 6 Sets"], "Menu" };
+	AtlasLoot_TableNames["T6SET2"] = { AL["Tier 6 Sets"], "Menu" };
 	AtlasLoot_TableNames["T7T8SET"] = { AL["Tier 7/8 Sets"], "Menu" };
 	AtlasLoot_TableNames["T9SET"] = { AL["Tier 9 Sets"], "Menu" };
 	AtlasLoot_TableNames["T10SET"] = { AL["Tier 10 Sets"], "Menu" };

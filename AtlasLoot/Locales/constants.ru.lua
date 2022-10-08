@@ -1473,18 +1473,35 @@ if AL then
     -- Specs
     AL["Balance"] = "Баланс";
     AL["Feral"] = "Сила зверя";
+	AL["Guardian"] = "Сила зверя";
     AL["Restoration"] = "Исцеление";
     AL["Holy"] = "Свет";
+	AL["Discipline"] = "Послушание";
     AL["Protection"] = "Защита";
     AL["Retribution"] = "Возмездие";
-    AL["Shadow"] = "Темная магия";
+    AL["Shadow"] = "Тьма";
     AL["Elemental"] = "Стихии";
     AL["Enhancement"] = "Совершенствование";
     AL["Fury"] = "Неистовство";
+	AL["Arms"] = "Оружие";
     AL["Demonology"] = "Демонология";
     AL["Destruction"] = "Разрушение";
     AL["Tanking"] = "Танкования";
-    AL["DPS"] = "ДПС";
+    AL["Blood"] = "Кровь";
+	AL["Frost"] = "Лед";
+	AL["Unholy"] = "Нечестивость";
+	AL["BeastMastery"] = "Повелитель зверей";
+	AL["Marksmanship"] = "Стрельба";
+	AL["Survival"] = "Выживание";
+	AL["Arcane"] = "Тайная магия";
+	AL["Fire"] = "Огонь";
+	AL["Frost"] = "Лед";
+	AL["Assassination"] = "Ликвидация";
+	AL["Outlaw"] = "Бой";
+	AL["Subtlety"] = "Скрытность";
+	AL["Affliction"] = "Колдовство";
+	AL["Demonology"] = "Демонология";
+	AL["Destruction"] = "Разрушение";
 
 	-- Naxx Zones
 	AL["Construct Quarter"] = "Квартал Мерзости";
@@ -1811,7 +1828,7 @@ if AL then
     AL["Setup"] = "Установки";
 
     -- Old Atlas Detected
-    AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "Обнаружено что Ваша версия Атласа не соответствует версии, под которую зделан Atlasloot (";
+    AL["It has been detected that your version of Atlas does not match the version that Atlasloot is tuned for ("] = "Обнаружено что Ваша версия Атласа не соответствует версии, под которую cделан Atlasloot (";
     AL[").  Depending on changes, there may be the occasional error, so please visit http://www.atlasmod.com as soon as possible to update."] = ").  В зависимости от изменений может быть случайная ошибка но лучше всего посетите форум и убедитесь что у вас стоит последняя версия данного аддона.";
     AL["OK"] = "OK";
     AL["Incompatible Atlas Detected"] = "Обноружен несовместимый Атлас";
