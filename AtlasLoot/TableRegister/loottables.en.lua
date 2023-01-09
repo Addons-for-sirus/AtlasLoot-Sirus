@@ -1619,6 +1619,7 @@ end
 	AtlasLoot_TableNames["WintervielMenu"] = { AL["Feast of Winter Veil"], "Menu" };
 	AtlasLoot_TableNames["RabbiSnegman"] = { AL["Rabbi Snegman"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["RabbiSnegman1"] = { AL["Rabbi Snegman"], "AtlasLootWorldEvents" };
+	AtlasLoot_TableNames["RabbiSnegman2"] = { AL["Rabbi Snegman"], "AtlasLootWorldEvents" };
 	AtlasLoot_TableNames["FrozenSnowman'sLair"] = { AL["Frozen Snowman's Lair"], "AtlasLootWorldEvents" };
   --- Hallow's End
 	AtlasLoot_TableNames["Halloween1"] = { AL["Hallow's End"], "AtlasLootWorldEvents" };
@@ -1726,9 +1727,20 @@ end
 	AtlasLoot_TableNames["MillenniumRouletteStat"] = { AL["MillenniumRouletteStat"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["MillenniumRouletteStatSession"] = { AL["MillenniumRouletteStatSession"], "AtlasLootSirus" };
 	
-	AtlasLoot_TableNames["BlackDiamonds"] = { AL["BlackDiamonds"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["BlackDiamonds2"] = { AL["BlackDiamonds2"], "AtlasLootSirus" };
-	AtlasLoot_TableNames["BlackDiamonds3"] = { AL["BlackDiamonds3"], "AtlasLootSirus" };
+	-- Черные брюли
+	AtlasLoot_TableNames["BlackDiamondsMenu"] = { AL["BlackDiamonds"], "Menu" };
+	AtlasLoot_TableNames["BlackDiamondsOne"] = { AL["BlackDiamondsOne"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsTwo"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsTwo2"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsTwo3"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+
+	AtlasLoot_TableNames["BlackDiamonds2"] = { AL["BlackDiamonds"], "AtlasLootSirus" };
+	-- Заряженный бриллиант 
+	AtlasLoot_TableNames["BlackDiamondsChargedMenu"] = { AL["BlackDiamondsCharged"], "Menu" };
+	AtlasLoot_TableNames["BlackDiamondsChargedOne"] = { AL["BlackDiamondsOne"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsChargedTwo"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsChargedTwo2"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["BlackDiamondsChargedTwo3"] = { AL["BlackDiamondsTwo"], "AtlasLootSirus" };
 	
 	-- Полироли
 	AtlasLoot_TableNames["pigment"] = { AL["pigment"], "Menu" };
@@ -2142,6 +2154,7 @@ end
 	AtlasLoot_TableNames["Enchanting_Tol'Garod4"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Enchanting_Tol'Garod5"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
 	AtlasLoot_TableNames["Enchanting_Tol'Garod6"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
+	AtlasLoot_TableNames["Enchanting_Tol'Garod7"] = { ENCHANTING..": "..AL["Enchanting_Tol'Garod"], "AtlasLootSirus" };
   -- Engineering
 	AtlasLoot_TableNames["EngineeringAmmo1"] = { ENGINEERING..": "..AL["Ammunition"], "AtlasLootCrafting" };
 	AtlasLoot_TableNames["EngineeringArmor1"] = { ENGINEERING..": "..BabbleInventory["Armor"], "AtlasLootCrafting" };

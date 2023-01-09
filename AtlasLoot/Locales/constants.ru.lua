@@ -113,8 +113,10 @@ if AL then
 	AL["Off Hand"]="Левая рука";
 
 	AL["BlackDiamonds"] = "Черные бриллианты";
+	AL["BlackDiamondsOne"] = "C одной характеристикой";
+	AL["BlackDiamondsTwo"] = "C двумя характеристиками";
 	AL["BlackDiamonds2"] = "Алмаз Бездны";
-	AL["BlackDiamonds3"] = "Заряженный бриллиант";
+	AL["BlackDiamondsCharged"] = "Заряженный бриллиант";
 	AL["TrinketChests"] = "Сундуки с аксессуарами";
 	AL["BlackMarket"] = "Черный рынок";
 	AL["BMarketMounts"] = "Ездовые животные";
@@ -489,6 +491,7 @@ if AL then
 	AL["Clappers"] = "Хлопушки";
 	AL["Animals"] = "Зверушки";
 	AL["Delicious buns"] = "Вкусные плюшки";
+	AL["Trial"] = "Испытание 25 уровень";
     -- Minimap Button
     AL["|cff1eff00Left-Click|r Browse Loot Tables"] = "|cff1eff00ЛКМ|r Просмотр таблицы трофеев";
     AL["|cffff0000Right-Click|r View Options"] = "|cffff0000ПКЛ|r Просмотр опций";
